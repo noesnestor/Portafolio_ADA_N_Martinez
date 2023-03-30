@@ -1,0 +1,47 @@
+caracteristicas obtenidas:
+composición quimica (elementos que forman parte)
+distribución molecular (masa, enlaces)
+tamaño (a nivel molecular, probar si puede pasar a través de una membrana con un tamaño dado)
+si puede descomponerse en cadenas más cortas en contacto con otros agentes
+propiedades térmicas: comportamiento ante calor
+propiedades físicas: comportamiento ante presión, estiramiento
+
+
+Casos de negocio:
+quiero saber si polimero (fórmula con la cual se creó) X tiene caracteristicas Y
+	ej. laboratorio probando formulas necesita saber si polimero cumple con determinadas caracteristicas.
+		caso particular: a qué temperatura el polímero pasa a ser maleable y a cual pasa a ser estable
+	tiro compuestos de polímeros con cambios pequeños en la fórmula esperando a ver las características esperadas.
+
+
+
+Proceso actual:
+	Muchos aparatos y muchos procedimientos de por medio. La mayoría la dan en un formato digital o impreso.
+	Hoy en día no todos los aparatos tienen el mismo formato de salida, por lo que no es posible combinar los resultados de los aparatos
+	
+
+Problemas (se busca):
+	El usuario que introduce y realiza los pasos es un especialista en el área.
+	Tener seguimiento de las muestras (qué muestra está analizando el aparato?) Trazabilidad. Bitácora y agenda para cada muestra analizada (o entrada de analisis en caso de multiples muestras simultáneas?). Debería poder trazarse dentro del sistema el cliente para una muestra dada o analisis hecho. 
+		El laboratorista debería poder identificar que la muestra sea correcta y que el analisis y el aparato sea correcto para el analisis hecho.
+		Quién hizo qué en qué máquina.
+	Se pueden agendar mantenimientos. También deberían poder reportarse averías (lo cual debería ser visible a la hora de hacer la agenda).
+		Guardar quién hace pruebas, quién inspecciona resultados (quizás responsable de cada entrada en bitácora/agenda).
+	El aparato me da un resultado, eso se baja, se imprime. La idea es tenerlo digitalizado para analizarlo de forma compatible. En el resultado guardado del analisis para la muestra, homogenizar la salida. Por ejemplo: algunos manejan diferentes unidades de medida.
+	Los aparatos tienen diferente demora, por lo que es necesario saber qué aparato va a hacer qué examen cuándo. Es necesario saber cómo distribuir las muestras entre aparatos disponbiles equitativamente y no sobrecargar un aparato en específico (dentro de una misma "clase" de aparato)
+	Necesitamos que los datos queden guardados de forma SEGURA (datos confidenciales pendientes de patente, no todos deberían poder acceder a todo?).
+	La forma en que se muestra cada tipo de resultado depende del procedimiento (de análisis) realizado. Gráficas y reportes tabulares son posibles.
+	Solo se debería mostrar una agenda para saber si los aparatos están ocupados o libres.
+	La duración de los procesos de los aparatos son fijos según procedimiento.
+	Los aparatos pueden fallar por diferentes razones (quizás este es un dato que puede notificarse, en la agenda o bitácora)
+	El laboratorista tiene manos ocupadas, guantes, equipo de protección, por lo que idealmente la interacción no sería tradicionalmente por PC dentro del laboratorio. Una opción son botones con funciones especificas, de modo que sea simple activar cualquier funcionalidad con las manos ocupadas o con cualquier tipo de equipamiento puesto. Otra opción es una serie de instrucciones impresas en códigos de barra que se pasan por un lector y terminan en instrucciones para el programa.
+	
+		
+	
+	El resultado no lo envía un profesional del area, se envía un documento (por correo, por ejemplo)
+	¿Producción/facilitación de facturas?
+	
+
+Objetivos:
+	Evitar recursos humanos y no humanos ociosos, por su costo.
+	
