@@ -2,9 +2,7 @@
 ## Materia: ANÁLISIS Y DISEÑO DE APLICACIONES I
 
 ### Primer Parcial:
-Libro: Mastering the Requirements Process
-
-[Mastering the Requirements Process](UT1_&_UT2_Mastering_the_Requirements_Process)
+Libro: [Mastering the Requirements Process](UT1_&_UT2_Mastering_the_Requirements_Process)
 
 #### Unidades
 * [UT1: Proceso y Elicitacion de Requerimientos](UT1_Proceso_Y_Elicitacion_de_Requerimientos)
