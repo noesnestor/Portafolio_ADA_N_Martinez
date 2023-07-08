@@ -1,0 +1,5 @@
+Internamente la pàgina de la UCU es consistente en cuanto a paleta de colores y fuentes. Sin embargo, hay cambios grandes en las estructuras de algunas pàginas. Por ejemplo, las pàginas para estudiantes y profesores son muy diferentes con respecto a la landing page, que a su vez es diferente estructuralmente en comparaciòn a el "Quiènes somos" de la universidad.
+
+Externamente no es consistente, la pagina principal (ucu.edu.uy) tiene un diseño muy diferente al de algunas de las pàginas a las que dirige en sus opciones, como por ejemplo, la de carreras de grado (carreras.ucu.edu.uy). Podemos considerar estas pàginas como pertenecientes a una misma plataforma (la plataforma de la ucu) pero son distintas aplicaciones web entre si
+
+La agenda de eventos no parece una ageda del mundo real, parece un simple listado
